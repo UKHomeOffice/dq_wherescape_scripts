@@ -10,4 +10,4 @@ rem *************************************************************
 rem *** RUN THE PYTHON SCRIPT
 rem *************************************************************
 
-"%PSEXEC_EXE%" /accepteula \\%IL2_HOST% -s cmd /c "%PYTHON_GPLOAD_LOAD_FMS_MODULE_BAT_FILE%" > %SCRIPTS_DIR%\run_gp_load_fms_module.log 2>&1
+"%PSEXEC_EXE%" /accepteula \\%IL2_HOST% cmd /c "%PYTHON_GPLOAD_LOAD_FMS_MODULE_BAT_FILE%" > %SCRIPTS_DIR%\run_gp_load_fms_module.log 2>&1
