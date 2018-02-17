@@ -28,7 +28,7 @@ set PYTHON_PREPROCESS_XML_FILES_SCRIPT=C:/Python27/Python.exe E:/dq/nrt/s4_file_
 set PYTHON_GPLOAD_SCRIPT=C:/Python25/Python.exe E:/dq/nrt/s4_file_ingest/scripts/DQ_IL2_DB_GP_Load_XML.py
 set PYTHON_GPLOAD_BAT_FILE=E:/dq/nrt/s4_file_ingest/scripts/GPLOAD.bat
 
-set PYTHON_GPLOAD_LOAD_VOYAGE_EXTERNAL_SCRIPT=E:/dq/nrt/s4_file_ingest/scripts/DQ_IL2_DB_GP_Load_XML_voyage_ext.py
+set PYTHON_GPLOAD_LOAD_VOYAGE_EXTERNAL_SCRIPT=C:/Python27/Python.exe E:/dq/nrt/s4_file_ingest/scripts/DQ_IL2_DB_GP_Load_XML_voyage_ext.py
 set PYTHON_GPLOAD_LOAD_VOYAGE_EXTERNAL_BAT_FILE=E:/dq/nrt/s4_file_ingest/scripts/GPLOAD_load_voyage_external.bat
 set PYTHON_GPLOAD_LOAD_FMS_CARRIER_VOLUME_TYPE_BAT_FILE=E:/dq/nrt/s4_file_ingest/scripts/GPLOAD_load_fms_carrier_volume_type.bat
 set PYTHON_GPLOAD_LOAD_FMS_FRAME_BAT_FILE=E:/dq/nrt/s4_file_ingest/scripts/GPLOAD_load_fms_frame.bat
